@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Color Picker</title>
     <link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
     <link href="./stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -15,15 +15,15 @@
 <h1>Color Picker Miladiou !!</h1>
 
 <form action="">
-<label for="rouge">Rouge</label>
-<input type="range" value="0" max="255" min="0" step="5" >
-
-<label for="vert">Vert</label>
-<input type="range" value="0" max="255" min="0" step="5" >
-
-<label for="bleu">Bleu</label>
-<input type="range" value="0" max="255" min="0" step="5" >
-</form>
+    <label for="rouge">Rouge</label>
+    <input type="range" id="rouge" min="0" max="255" step="1">
+    
+    <label for="vert">Vert</label>
+    <input type="range" id="vert" min="0" max="255" step="1">
+    
+    <label for="bleu">Bleu</label>
+    <input type="range" id="bleu" min="0" max="255" step="1">
+    </form>
     
 </body>
 </html>
